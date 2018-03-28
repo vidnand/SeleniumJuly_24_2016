@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="demo.LocalLanguageBrowser">
+      <class name="demo.TakeScreenGrab">
         <methods>
-          <include name="verifyTitle"/>
+          <include name="grabScreen"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- demo.LocalLanguageBrowser -->
+      </class> <!-- demo.TakeScreenGrab -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
